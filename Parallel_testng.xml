@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite" verbose="5">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="astro_tick.Lal_Kitab_Status"/>
+      <class name="astro_tick.Lucky_Numbers"/>
+      <class name="astro_tick.Numerology"/>
+      <class name="astro_tick.Baby_Name_Generator"/>
+      <class name="astro_tick.Lagna_Calculator"/>
+      <class name="astro_tick.Kundli_Matching"/>
+      <class name="astro_tick.Sadi_Sati"/>
+      <class name="astro_tick.Daily_Horoscope"/>
+      <class name="astro_tick.Dosham_Detector"/>
+      <class name="astro_tick.Dasha_Calculator"/>
+      <class name="astro_tick.Moon_Sign"/>
+      <class name="astro_tick.Daily_Panchang"/>
+      <class name="astro_tick.Nakshatra_Finder"/>
+      <class name="astro_tick.Free_Kundli"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
